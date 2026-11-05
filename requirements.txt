@@ -1,33 +1,29 @@
 
---extra-index-url https://download.pytorch.org/whl/cpu
-
-# Streamlit
 streamlit==1.45.1
 
-# CPU-only Deep Learning
-torch==2.6.0+cpu
-torchvision==0.21.0+cpu
+# CPU-only PyTorch for Python 3.11 on Linux
+torch @ https://download.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp311-cp311-linux_x86_64.whl
+torchvision @ https://download.pytorch.org/whl/cpu/torchvision-0.21.0%2Bcpu-cp311-cp311-linux_x86_64.whl
 
-# Image Processing
+# Core image processing
 numpy==1.26.4
 Pillow==9.5.0
 scipy==1.13.1
-opencv-python-headless==4.10.0.84
+opencv-python==4.11.0.86
 
-# LaMa Inpainting
+# Photograph restoration
 simple-lama-inpainting==0.1.2
-
-# Face Restoration
 facexlib==0.3.0
 gfpgan==1.3.8
 
-# Visualization
+# Visualization and metrics
 matplotlib==3.9.2
-
-# Image Quality Metrics
 scikit-image==0.24.0
 scikit-learn==1.5.2
 
 # Hugging Face
 huggingface-hub==0.26.2
 datasets==3.1.0
+
+# Streamlit compatibility
+pyarrow==24.0.0
