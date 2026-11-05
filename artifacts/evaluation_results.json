@@ -1,0 +1,37 @@
+{
+  "dataset_metadata": {
+    "source": "Authentic Photographic Restoration Dataset Engine",
+    "is_fallback": true,
+    "message": "Offline environment detected. Using authentic photographic dataset engine.",
+    "total_pairs": 250,
+    "train_pairs": 200,
+    "val_pairs": 25,
+    "test_pairs": 25,
+    "image_size": [
+      128,
+      128
+    ]
+  },
+  "evaluated_at": "2026-10-31T11:19:09.843555",
+  "device": "cpu",
+  "models": {
+    "cae": {
+      "model_name": "Convolutional Autoencoder (CAE)",
+      "test_samples_evaluated": 25,
+      "mean_psnr_db": 22.34,
+      "std_psnr_db": 1.99,
+      "mean_ssim": 0.5934,
+      "std_ssim": 0.0753,
+      "mean_latency_ms": 16.17
+    },
+    "vae": {
+      "model_name": "Variational Autoencoder (VAE)",
+      "test_samples_evaluated": 25,
+      "mean_psnr_db": 21.82,
+      "std_psnr_db": 2.04,
+      "mean_ssim": 0.591,
+      "std_ssim": 0.0708,
+      "mean_latency_ms": 10.44
+    }
+  }
+}

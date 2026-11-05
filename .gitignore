@@ -1,0 +1,48 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Heavy Model Checkpoints & Pretrained Weights (>100MB rejected by GitHub)
+*.pth
+*.pt
+*.caffemodel
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+gfpgan/weights/
+models/vae_best.pth
+models/big-lama.pt
+models/colorization_release_v2.caffemodel
+models/GFPGANv1.4.pth
+
+# Explicitly track lightweight in-house trained CAE checkpoint (31MB < 50MB)
+!models/cae_best.pth
+
+# Scratch & Temporary debugging scripts
+scratch/
+
+# Runtime test outputs & logs
+outputs/
+*.log
+
+# Streamlit secrets & local caches
+.streamlit/secrets.toml
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/

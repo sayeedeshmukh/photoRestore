@@ -1,0 +1,30 @@
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Web Application & UI
+streamlit>=1.30.0
+
+# Datasets & Hugging Face Hub
+datasets>=2.14.0
+huggingface-hub>=0.20.0
+
+# Image Processing & Utilities
+Pillow>=10.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+opencv-python>=4.8.0
+
+# Inpainting Foundation Model
+simple-lama-inpainting>=0.1.2
+
+# Face Restoration & Neural Enhancement Prior
+facexlib>=0.3.0
+gfpgan>=1.3.8
+
+# Data Visualization & Loss Curves
+matplotlib>=3.7.0
+
+# Image Quality Metrics (PSNR & SSIM)
+scikit-image>=0.20.0
+scikit-learn>=1.2.0
